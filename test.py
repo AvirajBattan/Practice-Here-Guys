@@ -8,7 +8,7 @@ class TestFun(unittest.TestCase):
     #checking for the correct input
 
     def setUp(self):
-        print("Running Test Case")
+        print("==========Running Test Case=========")
 
     # def tearDown(self):
         # i+=1
