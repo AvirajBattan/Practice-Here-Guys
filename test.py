@@ -9,6 +9,9 @@ class TestFun(unittest.TestCase):
 
     def setUp(self):
         print("==========Running Test Case=========")
+        print(" ")
+        print(" ")
+        
 
     # def tearDown(self):
         # i+=1
