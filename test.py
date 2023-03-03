@@ -13,8 +13,9 @@ class TestFun(unittest.TestCase):
         print(" ")
         
 
-    # def tearDown(self):
-        # i+=1
+    def tearDown(self):
+        print("Done")
+    
     def test1(self): 
         ans=solve(1,5)
         self.assertEqual(ans,50)
